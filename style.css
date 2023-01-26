@@ -1,6 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
+
+.bigcontainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
 h1 {
     color: rgb(25, 23, 39);
-    display: grid;
+    display: flex;
     justify-content: center;
 }
 
@@ -16,19 +28,12 @@ input {
 }
 
 button {
-    
+
 }
 
 
-* {
-    box-sizing: border-box;
-  }
+
 .container {
     display:inline-grid;
-    grid-template-columns:  repeat(16, 25px);
 }
 
-.bigcontainer {
-    display:grid;
-    justify-content: center;
-}
